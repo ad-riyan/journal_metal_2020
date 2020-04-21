@@ -1,0 +1,104 @@
+<style>
+    /* @import local('Macondo'), url('http://fonts.googleapis.com/css?family=Macondo'); */
+    @import url('http://fonts.googleapis.com/css?family=Source+Code+Pro');
+    @import url('http://fonts.googleapis.com/css?family=Crimson+Text');
+    @import url('http://fonts.googleapis.com/css?family=Belleza');
+    @import url('http://fonts.googleapis.com/css?family=Merriweather');
+    @import url('http://fonts.googleapis.com/css?family=Average+Sans');
+    
+    /* Change notebook width */
+    div#notebook {
+        padding-left:5%;
+        padding-right:5%;
+    }
+
+    /* Change for Header*/
+    div.text_cell_render h1 {
+        margin-top: 24pt;
+        margin-bottom: 32pt;
+        font-family: "Belleza";
+        font-size: 48pt;
+        color: #004B8D; 
+    }  
+
+    div.text_cell_render h2 {
+        margin-top: 24pt;
+        margin-bottom: 12pt;
+        font-family: "Belleza";
+        font-size: 32pt;
+        color: #007D28; 
+    }
+
+    div.text_cell_render h3 {
+        margin-top: 24pt;
+        margin-bottom: 12pt;
+        font-family: "Belleza";
+        font-size: 24pt;
+        color: #0692AB; 
+    }    
+    div.text_cell_render h4 {
+        margin-top: 24pt;
+        margin-bottom: 12pt;
+        font-family: "Belleza";
+        font-size: 20pt;
+        color: #034F84; 
+    }
+
+    div.text_cell_render h5 {
+        margin-top: 24pt;
+        margin-bottom: 12pt;
+        font-family: "Belleza";
+        font-size: 16pt;
+        font-style: normal;
+        color: #800000; 
+    }
+
+    div.text_cell_render h6 {
+        margin-top: 6pt;
+        margin-bottom: 6pt;
+        font-family: "Belleza";
+        font-size: 14pt;
+        font-style: normal;
+        color: #000001;
+    }
+
+    /* Change code font */
+    .CodeMirror pre {
+        font-size: 11pt;
+        font-family: Source Code Pro, Consolas, monocco, monospace;
+    }
+    div.code_cell{
+        max-width: 100%;
+    }
+    div.code_cell_render{
+        font-size: 11pt;
+    }
+    div.cell.code_cell {
+        border-width: 2px;
+        border-radius: 6px;
+    }
+    div.input_area {
+        border-width: 1px;
+        border-radius: 3px;
+        border-color: #EEEEEE;
+        background-color: #EEEEEE;
+    }
+
+    div.text_cell { 
+        max-width: 100%; /* instead of 100%, */
+    }
+
+    div.text_cell_render { 
+        margin-top: 6pt;
+        margin-bottom: 6pt;
+        font-family: "Merriweather";
+        font-size: 11pt;
+        line-height: 135%; /* added for some line spacing of text. */
+    }
+
+    .rendered_html ol {
+        list-style:decimal;
+        margin: 1em 2em;
+    }
+
+</style>

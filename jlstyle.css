@@ -1,0 +1,105 @@
+<style>
+    /* @import local('Macondo'), url('http://fonts.googleapis.com/css?family=Macondo'); */
+    @import url('http://fonts.googleapis.com/css?family=Source+Code+Pro');
+    @import url('http://fonts.googleapis.com/css?family=Crimson+Text');
+    @import url('http://fonts.googleapis.com/css?family=Belleza');
+    @import url('http://fonts.googleapis.com/css?family=Merriweather');
+    @import url('http://fonts.googleapis.com/css?family=Average+Sans');
+    
+    /* Change notebook width */
+    div#notebook {
+        padding-left:5%;
+        padding-right:5%;
+    }
+
+    /* Change for Header*/
+    div.jp-RenderedHTMLCommon h1 {
+        margin-top: 24pt;
+        margin-bottom: 36pt;
+        font-family: "Belleza";
+        font-size: 48pt;
+        font-style: bold;
+        color: #004B8D; 
+    }  
+
+    div.jp-RenderedHTMLCommon h2 {
+        margin-top: 24pt;
+        margin-bottom: 12pt;
+        font-family: "Belleza";
+        font-size: 28pt;
+        font-style: normal;
+        color: #0BA5FE; 
+    }
+
+    div.jp-RenderedHTMLCommon h3 {
+        margin-top: 24pt;
+        margin-bottom: 12pt;
+        font-family: "Belleza";
+        font-size: 24pt;
+        font-style: normal;
+        color: #008B8B; 
+    }    
+    div.jp-RenderedHTMLCommon h4 {
+        margin-top: 24pt;
+        margin-bottom: 12pt;
+        font-family: "Belleza";
+        font-size: 20pt;
+        font-style: normal;
+        color: #034F84; 
+    }
+
+    div.jp-RenderedHTMLCommon h5 {
+        margin-top: 24pt;
+        margin-bottom: 12pt;
+        font-family: "Belleza";
+        font-size: 16pt;
+        font-style: normal;
+        color: #800000; 
+    }
+
+    div.jp-RenderedHTMLCommon h6 {
+        margin-top: 6pt;
+        margin-bottom: 6pt;
+        font-family: "Belleza";
+        font-size: 14pt;
+        font-style: normal;
+        color: #000001;
+    }
+    
+    /* Change code font */
+    div.jp-CodeMirror pre {
+        font-size: 11pt;
+        font-family: Source Code Pro, Consolas, monocco, monospace;
+        
+    }
+    div.jp-notebook-cell-.code_cell{
+        max-width: 100%;
+    }
+    div.jp-notebook-cell-.cell.code_cell {
+        border-width: 2px;
+        border-radius: 6px;
+    }
+    div.jp-notebook-cell-.input_area {
+        border-width: 1px;
+        border-radius: 5px;
+        border-color: #EEEEEE;
+        background-color: #EEEEEE;
+    }
+
+    div.jp-notebook-cell-.text_cell { 
+        max-width: 100%; /* instead of 100%, */
+    }
+
+    div.jp-MarkdownOutput.text_cell_render { 
+        margin-top: 6pt;
+        font-family: "Merriweather";
+        font-size: 11pt;
+        line-height: 135%; /* added for some line spacing of text. */
+    }
+
+    div.--jp-rendered_html ol {
+        list-style:decimal;
+        margin: 1em 2em;
+    }
+
+</style>
