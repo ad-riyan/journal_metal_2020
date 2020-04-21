@@ -9,7 +9,12 @@ This repo comprises:
 
 
 ## How to use:
-This is an initial pacakage for mechanical system using screw theory. Author has a plan to create a python package which based on screw theory. Here, it is shown how to use the `pyScrew4Mobility` module to compute mobility of any parallel manipulators.
+This is an initial pacakage for mechanical system using screw theory. Author has a plan to create a python package which based on screw theory. Here, it is shown how to use the `pyScrew4Mobility` module to compute mobility of any parallel manipulators. This module is written on top a python programming language and Sympy (Symbolic Python) library.
 
-1. If you do not have a python (python3) installed on your personal computer, you can download a python distribution from [Anaconda](https://www.anaconda.com/distribution/) that depends on your operating system. 
+1. If you do not have a python (python3) installed on your personal computer, you can download a python distribution from [Anaconda](https://www.anaconda.com/distribution/) that depends on your operating system. Anaconda provides all scientific python stacks (Numpy, Scipy, Matplotlib, **Sympy**, Pandas), specific scientific domain packages such as AstroPy, data science packages, machine learning packages (ScikitLearn) and image processing pacakages (Scikit Image).
+2. Install Anaconda Python/R Distribution.
+3. Clone or download this repo to your personal computer.
+
+
+
 ** To use the `pyScrew4Mobility` module, one can find the in the Notebook.
