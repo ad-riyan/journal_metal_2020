@@ -9,7 +9,7 @@ This repo comprises:
 
 
 ## How to use:
-This is an initial pacakage for mechanical system using screw theory. Author has a plan to create a python package which based on screw theory.
+This is an initial pacakage for mechanical system using screw theory. Author has a plan to create a python package which based on screw theory. Here, it is shown how to use the `pyScrew4Mobility` module to compute mobility of any parallel manipulators.
 
-
+1. If you do not have a python (python3) installed on your personal computer, you can download a python distribution from [Anaconda](https://www.anaconda.com/distribution/) that depends on your operating system. 
 ** To use the `pyScrew4Mobility` module, one can find the in the Notebook.
