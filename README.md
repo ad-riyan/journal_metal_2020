@@ -12,11 +12,13 @@ This repo comprises:
 This is an initial pacakage for mechanical system using screw theory. Author has a plan to create a python package which based on screw theory. Here, it is shown how to use the `pyScrew4Mobility` module to compute mobility of any parallel manipulators. This module is written on top a python programming language and Sympy (Symbolic Python) library.
 
 1. If you do not have a python (python3) installed on your personal computer, you can download a python distribution from [Anaconda](https://www.anaconda.com/distribution/), you have to download Anaconda3 (Anaconda with Python 3+), that depends on your operating system. Anaconda provides all scientific python stacks (Numpy, Scipy, Matplotlib, **Sympy**, Pandas), specific scientific domain packages such as AstroPy, data science packages, machine learning packages (ScikitLearn) and image processing pacakages (Scikit Image).
-2. Install Anaconda Python/R Distribution.
+2. [Install Anaconda Python/R Distribution](https://docs.anaconda.com/anaconda/install/) according to your operating system.
 3. Clone or download (as zip) this repo to a directory in your personal computer.
 4. After finished, unzip.
-5. [**Windows user**] Open Anaconda Powershell Prompt (Anaconda3) or Anaconda Prompt (Anaconda3)
-6. Use the Powershell or Anaconda Prop
+5. **Windows user:** Open Anaconda Powershell Prompt (Anaconda3) or Anaconda Prompt (Anaconda3). **Linux or Mac user** can directly use the terminal.
+6. Use the Anaconda Powershell Prompt/Anaconda Prompt/Terminal to access the directory where the materials in this repo downloaded in your personal computer.
+7. Afterwards, type `jupyter notebook` or `jupyter lab` and press `Enter` key to launch **jupyter notebook** or **jupyter lab**.
+8. Open 
 
 
 
