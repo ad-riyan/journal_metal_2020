@@ -7,6 +7,8 @@ This repo comprises:
 * a `pyScrew4Mobility` module which written in python programming language and using Sympy library.
 * a notebook that shows the use of `pyScrew4Mobility` module to obtain the mobility of four parallel manipulators (PMs), i.e. 3-PRRR, 3-PR(Pa)R, 4-PRRU, and 6-UPS. The first three PMs is over-constrained PMs.
 
+**Both are release under BSD 3-Clause "New" or "Revised" License**.
+
 
 ## How to use:
 This is an initial pacakage for mechanical system using screw theory. Author has a plan to create a python package which based on screw theory. Here, it is shown how to use the `pyScrew4Mobility` module to compute mobility of any parallel manipulators. This module is written on top a python programming language and Sympy (Symbolic Python) library.
@@ -18,9 +20,6 @@ This is an initial pacakage for mechanical system using screw theory. Author has
 5. **Windows user:** Open Anaconda Powershell Prompt (Anaconda3) or Anaconda Prompt (Anaconda3). **Linux or Mac user** can directly use the terminal.
 6. Use the Anaconda Powershell Prompt/Anaconda Prompt/Terminal to access the directory where the materials in this repo downloaded in your personal computer.
 7. Afterwards, type `jupyter notebook` or `jupyter lab` and press `Enter` key to launch **jupyter notebook** or **jupyter lab**.
-8. Open 
+8. Open `Screw Theory for Mobility Determination of PMs.ipynb`. This notebook provides an implementation of the `pyScrew4Mobility` module to compute mobility of four parallel manipulators, i.e.:  3-PRRR, 3-PR(Pa)R, 4-PRRU, and 6-UPS.
 
 
-
-
-** To use the `pyScrew4Mobility` module, one can find the in the Notebook.
