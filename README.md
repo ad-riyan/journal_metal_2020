@@ -9,7 +9,7 @@ This repo mainly comprises:
 
 **Both are release under BSD 3-Clause "New" or "Revised" License**.
 
-If you found the `pyScrew4Mobility` module is worth for your research or publications later on, please cites the paper.
+If you find that the `pyScrew4Mobility` module is worth for your research or publications later on, please cites the paper.
 
 ## How to use:
 This is an initial package for mechanical system using screw theory. Author has a plan to create a python package which based on screw theory. Here, it is shown how to use the `pyScrew4Mobility` module to compute mobility of any parallel manipulators. This module is written on top a python programming language and Sympy (Symbolic Python) library.
