@@ -1,7 +1,7 @@
 # A Python Module for Mobility Determination of Parallel Manipulators Using Screw Theory: `pyScrew4Mobility` module
 
 
-**This repo is use to host materials for the article published in Journal METAL, Dept. of Mechanical Engineering, Andalas University.**
+**This repo is used to host materials for the article published in Journal METAL, Dept. of Mechanical Engineering, Andalas University.**
 
 This repo mainly comprises:
 * a `pyScrew4Mobility` module which written in python programming language and using Sympy library.
